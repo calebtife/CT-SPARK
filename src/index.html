@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CT SPARK</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="shortcut icon" href="../assets/CT-logo.png" type="image">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        .swiper-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-container bg-[#cfedfc] h-[100vh]">
+        <header class="py-5">
+            <nav class="flex gap-8  py-4 px-8 bg-[#fff] items-center w-[60%] h-auto mx-auto rounded-full ">
+                <div class="flex justify-between items-center w-full ">
+                    <div class="navlogo">
+                        <a href="index.html" class="flex items-center font-bold text-2xl"> 
+                            <img src="../assets/CT-logo.png" alt="CT-logo" style="width: 60px; height: auto; font-family: montserrat;" class="filter brightness-0 invert-[0] sepia saturate-[1000%] hue-rotate-[240deg]"> 
+                            CT SPARK
+                        </a>
+                    </div>
+                    <ul class="flex justify-between gap-5 text-2xl">
+                        <li>
+                          <a href="index.html" class="relative pb-1 text-gray-500 hover:text-blue-500 nav-link">Home</a>
+                        </li>
+                        <li>
+                          <a href="#about" class="relative pb-1 text-gray-500 hover:text-blue-500 nav-link">About</a>
+                        </li>
+                        <li>
+                          <a href="#services" class="relative pb-1 text-gray-500 hover:text-blue-500 nav-link">Services</a>
+                        </li>
+                        <li>
+                          <a href="#reviews" class="relative pb-1 text-gray-500 hover:text-blue-500 nav-link">Reviews</a>
+                        </li>
+                        <li>
+                          <a href="support.html" class="relative pb-1 text-gray-500 hover:text-blue-500 nav-link">Support</a>
+                        </li>
+                    </ul>
+                    <div class="flex gap-5 items-center text-2xl">
+                        <a href="login.html">Sign In</a>
+                        <a href="#" class="px-5 py-3 bg-[#060640] rounded-full text-white">Get Started</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="hero mt-[50px]">
+            <div class="hero-content w-[60%] mx-auto flex flex-col gap-[45px] items-center text-center">
+                <h1 class="text-5xl font-bold">Stay Connected always with our High speed internet plans</h1>
+                <p class="text-xl">High speed internet plans for your home and business</p>
+                <div class="flex gap-5 items-center font-semibold justify-center">
+                    <a href="login.html" class="px-5 py-3 bg-[#fff] rounded-full text-black">Sign In to your account</a>
+                    <a href="login.html" class="px-5 py-3 bg-[#060640] rounded-[5px] text-white">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="about">
+        <div class="about-container relative">
+            <div class="relative">
+                <img src="../assets/about.jpg" alt="" class="w-[100vw] h-[30vh] object-cover">
+                <h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-[70px] font-extrabold leading-[90px]" style="font-family: mont;">About CT SPARK</h1>
+            </div>
+    
+            <!-- Text content section -->
+             <div class="flex pt-12 bg-[#cfedfc] pb-[150px]">
+                 <div class="p-8 h-full">
+                     <h2 class="text-[54px] font-bold leading-[64px] font-[montserrat]">WE PROVIDE THAT <br>CONNECTIVITY SPARK!</h2>
+                     <p class="mt-4 text-[20px] leading-[40px]">At CT Spark, we are dedicated to bringing fast, reliable internet connections to clients in even the most remote locations. With a focus on high-speed connectivity, we aim to bridge the digital divide by offering seamless, high-performance internet solutions where access is limited. Our team works tirelessly to ensure that every client, whether in rural areas, underserved communities, or isolated regions, experiences the power of fast, stable internet. From home setups to business solutions, we provide tailored internet services that guarantee speed, reliability, and customer satisfaction. At CT Spark, we don’t just provide internet; we provide the connection to the digital world that our clients need to thrive. Welcome to a new era of connectivity <span class="font-bold text-[#F19645]">– welcome to CT Spark.</span></p>
+                 </div>
+
+                 <div class="w-[50vw] h-[60vh]">
+                    <div class="swiper h-[60vh] rounded-tl-[50px] rounded-bl-[50px]">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide">
+                            <img src="../assets/image-1.jpg" alt="" class="swiper-image">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="../assets/image-2.jpg" alt="" class="swiper-image">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="../assets/spacexx.jpg" alt="" class="swiper-image">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="../assets/space.jpg" alt="" class="swiper-image">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="../assets/spacex.jpg" alt="" class="swiper-image">
+                          </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+            </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- divider -->
+    <img src="../assets/divider.svg" alt="" class="w-[100%]">
+
+
+    <!-- services -->
+    <section id="services" class="pt-[100px] pb-[100px] bg-[#cfedfc]">
+      <div class="services-container mx-[50px]">
+        <div class="flex items-center">
+          <h1 class="text-[54px] font-bold leading-[64px] font-[montserrat] mb-6">Our Plans</h1>
+          <div class="navigation-buttons flex gap-5 justify-between ml-auto">
+            <button id="prev-button" class="plan-btn" disabled><i class='bx bx-left-arrow'></i></button>
+            <button id="next-button" class="plan-btn"><i class='bx bx-right-arrow'></i></button>
+          </div>
+        </div>
+        <!-- Placeholder for dynamically injected plans -->
+        <div id="plans-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- Plan cards will be dynamically injected here via JavaScript -->
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="reviews" class="pt-[100px] pb-[100px] bg-[#000000]">
+      <div class="reviews-container">
+        <div class="flex flex-col  items-center">
+          <p class="text-[#F19645] text-[24px] font-semibold">TESTIMONIALS</p>
+          <h1 class="text-[54px] font-extrabold leading-[64px] font-[montserrat] mb-6 text-white">What Our Clients Say About Us</h1>
+        </div>
+        <div class="flex justify-center items-center gap-5">
+          <!-- review card 1 -->
+          <div class="bg-white shadow-lg rounded-lg p-6 w-[350px]">
+            <!-- Star Rating -->
+            <div class="flex justify-center mb-4 text-orange-400">
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+            </div>
+        
+            <!-- Review Title -->
+            <h2 class="text-center font-bold text-lg mb-4">Emeka’s Review</h2>
+        
+            <!-- Review Text -->
+            <p class="text-center text-gray-600 mb-6">
+              CT Spark's reliable high-speed internet was a game-changer for my studies. It made online classes, research, and group projects seamless. Thanks to CT Spark, staying on top of my schoolwork has never been easier!
+            </p>
+        
+            <!-- Image Placeholder -->
+            <div class="flex justify-center mb-4">
+              <div class="w-16 h-16 bg-gray-300 rounded-full"></div>
+            </div>
+        
+            <!-- Reviewer Info -->
+            <h3 class="text-center font-bold text-md">Emeka Okafor</h3>
+            <p class="text-center text-sm text-gray-500">Final-Year Thesis Research</p>
+          </div>
+
+          <!-- review card 2 -->
+          <div class="bg-white shadow-lg rounded-lg p-6 w-[350px]">
+            <!-- Star Rating -->
+            <div class="flex justify-center mb-4 text-orange-400">
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+            </div>
+        
+            <!-- Review Title -->
+            <h2 class="text-center font-bold text-lg mb-4">Caleb’s Review</h2>
+        
+            <!-- Review Text -->
+            <p class="text-center text-gray-600 mb-6">
+              CT Spark's high-speed internet has been a lifesaver for my remote IT work. It’s fast, reliable, and ensures I stay connected for video calls, large file transfers, and troubleshooting tasks. Working from home has never been this smooth!
+            </p>
+        
+            <!-- Image Placeholder -->
+            <div class="flex justify-center mb-4">
+              <div class="w-16 h-16 bg-gray-300 rounded-full"></div>
+            </div>
+        
+            <!-- Reviewer Info -->
+            <h3 class="text-center font-bold text-md">Caleb Tife</h3>
+            <p class="text-center text-sm text-gray-500">Remote IT Support</p>
+          </div>
+
+          <!-- review card 3 -->
+          <div class="bg-white shadow-lg rounded-lg p-6 w-[350px]">
+            <!-- Star Rating -->
+            <div class="flex justify-center mb-4 text-orange-400">
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+            </div>
+        
+            <!-- Review Title -->
+            <h2 class="text-center font-bold text-lg mb-4">Covenant’s Review</h2>
+        
+            <!-- Review Text -->
+            <p class="text-center text-gray-600 mb-6">
+             CT Spark's high-speed internet has been a game-changer for my online business. It’s fast, reliable, and ensures I stay connected for video calls, large file transfers, and troubleshooting tasks. Working from home has never been this smooth!
+            </p>
+        
+            <!-- Image Placeholder -->
+            <div class="flex justify-center mb-4">
+              <div class="w-16 h-16 bg-gray-300 rounded-full"></div>
+            </div>
+        
+            <!-- Reviewer Info -->
+            <h3 class="text-center font-bold text-md">Covenant Samuel</h3>
+            <p class="text-center text-sm text-gray-500">Streamer & Content Creator</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-container flex justify-between  py-[150px] px-[100px]">
+        <div class="footer-manifesto w-[290px] flex flex-col gap-5">
+          <div class="navlogo">
+            <a href="index.html" class="flex items-center font-bold text-2xl"> 
+                <img src="../assets/CT-logo.png" alt="CT-logo" style="width: 60px; height: auto; font-family: montserrat;" class="filter brightness-0 invert-[0] sepia saturate-[1000%] hue-rotate-[240deg]"> 
+                CT SPARK
+            </a>
+          </div>
+          <p>Connecting Lives, Empowering Communities. Welcome to CT Spark.We specialize in providing fast, reliable internet solutions that bridge the digital divide, ensuring seamless connectivity tailored to your needs.</p>
+          <div class="flex gap-5">
+            <a href="#"><i class='bx bxl-facebook-circle bx-sm'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt bx-sm'></i></a>
+            <a href="#"><i class='bx bxl-twitter bx-sm'></i></a>
+            <a href="#"><i class='bx bxl-linkedin bx-sm'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp bx-sm'></i></a>
+          </div>
+        </div>
+        <div class="quick-link">
+          <h1 class="text-[24px] font-bold text-[#060640] mb-5">Quick Links</h1>
+          <ul class="flex flex-col gap-5">
+            <li class=""><a href="#index.html" class="hover:underline decoration-dotted">Home</a></li>
+            <li><a href="#about" class="hover:underline decoration-dotted">About Us</a></li>
+            <li><a href="#services" class="hover:underline decoration-dotted">Our Services</a></li>
+            <li><a href="login.html" class="hover:underline decoration-dotted">Sign In</a></li>
+          </ul>
+        </div>
+        <div class="contact-us">
+          <h1 class="text-[24px] font-bold text-[#060640] mb-5">Contact Us</h1>
+          <ul class="flex flex-col gap-5">
+            <li><a href="mailto:info@ctspark.com" class="hover:underline decoration-dotted">info@ctspark.com</a></li>
+            <li><a href="tel:+2349028741416" class="hover:underline decoration-dotted">(+234) 902 874 1416</a></li>
+          </ul>
+        </div>
+        <div class="newsletter w-[300px] flex flex-col gap-5">
+          <h1 class="text-[24px] font-bold text-[#060640]">Newsletter</h1>
+          <p>Subscribe to our newsletter to receive the latest news and updates.</p>
+          <form action="" >
+            <input type="email" placeholder="Email Address" class="w-[100%] outline outline-1 outline-[#060640] p-2 mb-2"> 
+            <button type="submit" class="w-[100%] bg-[#060640] text-white py-2 rounded-md">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-lastBa flex justify-center items-center bg-black text-1xl text-white py-2"><i class='bx bx-copyright' ></i> 2024 CT SPARK</div>
+    </footer>
+    
+    
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+              autoplay: {
+                delay: 3000, // Time in milliseconds between slide changes
+                disableOnInteraction: false, // Keeps autoplay running even after user interaction
+              },
+              pagination: {
+                el: '.swiper-pagination', // Enable pagination
+                clickable: true, // Allows clicking on pagination bullets
+              },
+              slidesPerView: 1,
+              loop: true, // Enable looping of slides
+            });
+        </script>
+    <script src="spark.js"></script>
+</body>
+</html>
