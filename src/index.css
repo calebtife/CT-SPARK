@@ -178,7 +178,7 @@
     font-size: 2.5em;
     color: #fff;
     font-weight: 500;
-    transition: 0.3s ease-in-out
+    transition: 0.3s ease-in-out;
 }
 .plan-btn:hover {
     background-color: #fff;
@@ -223,45 +223,38 @@
     padding: 40px;
     text-align: center;
     transition: transform 0.3s ease;
-  }
-  
-  .plan-card:hover {
+}
+.plan-card:hover {
     transform: translateY(-5px);
-  }
-  
-  .plan-title  h3 , .plan-title  i{
+}
+.plan-title h3, .plan-title i {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
-  }
-  .plan-title  i{
+}
+.plan-title i {
     color: green;
-  }
-  
-  
-  .plan-details {
+}
+.plan-details {
     padding: 0;
     margin: 0 0 20px;
-  }
-  
-  .plan-details li {
+}
+.plan-details li {
     font-size: 20px;
     color: #555;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .plan-price {
+}
+.plan-price {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #1d4ed8;
-  }
-  
-  .select-plan-btn {
+}
+.select-plan-btn {
     background-color: #2563eb;
     color: #fff;
     border: none;
@@ -270,10 +263,50 @@
     font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .select-plan-btn:hover {
-      color: black;
-      background-color: transparent;
-      outline: 1px solid #2563eb;
-  }
+}
+.select-plan-btn:hover {
+    color: black;
+    background-color: transparent;
+    outline: 1px solid #2563eb;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .body-container {
+        height: auto; /* Allow height to adjust based on content */
+    }
+    .hero-content {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    .about-container {
+        flex-direction: column; /* Stack elements vertically */
+    }
+    .w-[50vw] {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Allow height to adjust */
+    }
+    .services-container {
+        margin: 0 20px; /* Adjust margins */
+    }
+    .footer-container {
+        flex-direction: column; /* Stack footer items */
+        align-items: center; /* Center items */
+    }
+    .quick-link, .contact-us, .newsletter {
+        margin-bottom: 20px; /* Add spacing between sections */
+    }
+}
+@media (max-width: 480px) {
+    .text-[54px] {
+        font-size: 32px; /* Adjust font size for smaller screens */
+    }
+    .text-[24px] {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+    .text-5xl {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    .text-xl {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}

@@ -670,6 +670,10 @@ video {
   margin-top: 50px;
 }
 
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
 .flex {
   display: flex;
 }
@@ -706,6 +710,10 @@ video {
   height: 100%;
 }
 
+.h-\[100\%\] {
+  height: 100%;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -736,10 +744,6 @@ video {
 
 .w-\[350px\] {
   width: 350px;
-}
-
-.w-\[45\%\] {
-  width: 45%;
 }
 
 .w-\[50vw\] {
@@ -981,11 +985,6 @@ video {
   padding-right: 100px;
 }
 
-.px-\[156px\] {
-  padding-left: 156px;
-  padding-right: 156px;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1034,6 +1033,10 @@ video {
 
 .pt-\[100px\] {
   padding-top: 100px;
+}
+
+.pb-\[200px\] {
+  padding-bottom: 200px;
 }
 
 .text-center {
@@ -1447,7 +1450,7 @@ video {
   font-size: 2.5em;
   color: #fff;
   font-weight: 500;
-  transition: 0.3s ease-in-out
+  transition: 0.3s ease-in-out;
 }
 
 .plan-btn:hover {
@@ -1509,14 +1512,14 @@ video {
   transform: translateY(-5px);
 }
 
-.plan-title  h3 , .plan-title  i{
+.plan-title h3, .plan-title i {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #333;
 }
 
-.plan-title  i{
+.plan-title i {
   color: green;
 }
 
@@ -1556,6 +1559,71 @@ video {
   color: black;
   background-color: transparent;
   outline: 1px solid #2563eb;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .body-container {
+    height: auto;
+    /* Allow height to adjust based on content */
+  }
+
+  .hero-content {
+    width: 90%;
+    /* Adjust width for smaller screens */
+  }
+
+  .about-container {
+    flex-direction: column;
+    /* Stack elements vertically */
+  }
+
+  .w-[50vw] {
+    width: 100%;
+    /* Full width for smaller screens */
+    height: auto;
+    /* Allow height to adjust */
+  }
+
+  .services-container {
+    margin: 0 20px;
+    /* Adjust margins */
+  }
+
+  .footer-container {
+    flex-direction: column;
+    /* Stack footer items */
+    align-items: center;
+    /* Center items */
+  }
+
+  .quick-link, .contact-us, .newsletter {
+    margin-bottom: 20px;
+    /* Add spacing between sections */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-[54px] {
+    font-size: 32px;
+    /* Adjust font size for smaller screens */
+  }
+
+  .text-[24px] {
+    font-size: 18px;
+    /* Adjust font size for smaller screens */
+  }
+
+  .text-5xl {
+    font-size: 2rem;
+    /* Adjust font size for smaller screens */
+  }
+
+  .text-xl {
+    font-size: 1rem;
+    /* Adjust font size for smaller screens */
+  }
 }
 
 .hover\:border-\[1px\]:hover {
@@ -1601,6 +1669,18 @@ video {
   --tw-ring-color: rgb(6 6 64 / var(--tw-ring-opacity, 1));
 }
 
+@media (min-width: 640px) {
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mb-0 {
     margin-bottom: 0px;
@@ -1610,12 +1690,42 @@ video {
     width: 50%;
   }
 
+  .md\:w-\[290px\] {
+    width: 290px;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .md\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .md\:px-\[156px\] {
+    padding-left: 156px;
+    padding-right: 156px;
   }
 }
 
