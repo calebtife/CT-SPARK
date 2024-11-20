@@ -310,3 +310,14 @@
         font-size: 1rem; /* Adjust font size for smaller screens */
     }
 }
+
+/* sidebar styles */
+.sidebar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
